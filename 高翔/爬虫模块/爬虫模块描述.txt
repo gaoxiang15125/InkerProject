@@ -1,0 +1,11 @@
+	暂未引入分布式配置，将来会添加
+/**
+ * 传入商品Url，商品分类信息，用户商铺编号，添加特定商品
+**/
+@PostMapping(/crawler/crawlerGoods")
+String getGoodsInfo(String goodsUrl,String classifyInfo,int sellerId)
+/**
+ * 传入店铺Url，将自动添加该店铺所有商品进入数据库
+**/
+@PostMapping("/crawler/crawlerSeller")
+String getGoodsBySellerUrl(String sellerUrl)
