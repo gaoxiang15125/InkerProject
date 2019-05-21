@@ -15,5 +15,5 @@ public class CartItemVo {
 	private String imgURL;
 	private double price;
 	//库存数量
-	private int stock;
+	private boolean isStockEnough;
 }
